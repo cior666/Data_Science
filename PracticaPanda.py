@@ -15,8 +15,6 @@ print(df["Vendedor"]) #veo la columna vendedor
 #df.head() #veo los primeros 5 registro del db
 #df.sample(5) #me muestra 5 registros aleatorios
 
-
-
 #Metodos para ordenar
 #Ordeno por Vendedor
 print(df.sort_values("Vendedor")) #me ordena por vendedor, ordena de mayor a menor
